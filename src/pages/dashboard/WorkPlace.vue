@@ -114,6 +114,7 @@ export default {
     this.getTeams()
   },
   methods: {
+    // 请求数据掉接口
     getProjectList () {
       this.$axios({
         method: 'get',
